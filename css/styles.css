@@ -1,0 +1,87 @@
+            body {
+            background-image: url('../images/background-halftone-gradient-template-ghana-flag_43969-405.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        #navbar nav ol li {
+            list-style: none;
+            float: right;
+            padding-right: 2%;
+            text-decoration: none;
+        }
+        
+        .card-body {
+            background-color: burlywood;
+        }
+        
+        .form {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+        
+        .form-group {
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+            font-size: 18px;
+        }
+        
+        .form-check-label {
+            color: rgb(255, 255, 255);
+        }
+        
+        input[type="radio"] {
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+        
+        .wikitable {
+            background-color: #f8f9fa;
+            color: #202122;
+            margin: 2em 0;
+            border: 1px solid #0a0f14;
+            border-collapse: collapse;
+        }
+        
+        .wikitable>*>tr>th {
+            background-color: #87a8e9;
+            text-align: center;
+        }
+        
+        .wikitable>*>tr>th .wikitable>*>tr>td {
+            border: 1px solid #0d2036;
+            padding: 0.2em 0.4em;
+        }
+        
+        th {
+            display: table-cell;
+            vertical-align: inherit;
+            font-weight: bold;
+            text-align: -internal-center;
+        }
+        
+        table {
+            font-size: 100%;
+            border-collapse: separate;
+            border-spacing: 2px;
+            display: table;
+            border-collapse: separate;
+            box-sizing: border-box;
+            border-spacing: 2px;
+            border-color: burlywood;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .overlay {
+                margin-left: 1%;
+                margin-right: 2%;
+            }
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .overlay {
+                margin-left: 1%;
+                margin-right: 1%;
+            }
