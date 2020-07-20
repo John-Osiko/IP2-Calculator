@@ -10,4 +10,9 @@ body {
     list-style: none;
     float: right;
     padding-right: 2%;
+    text-decoration: none;
+}
+
+.card-body {
+    background-color: burlywood;
 }
