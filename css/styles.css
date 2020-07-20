@@ -16,3 +16,30 @@ body {
 .card-body {
     background-color: burlywood;
 }
+
+.form {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.form-group {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form-check-label {
+    color: rgb(255, 255, 255);
+}
+
+input[type="radio"] {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 600px) {
+    .overlay {
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+}
