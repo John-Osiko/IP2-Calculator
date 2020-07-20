@@ -22,6 +22,59 @@
             </ol>
         </nav>
     </div>
+    <h2>Enter Your Information Here!</h2>
+    <form name="myForm" class="form" onsubmit="validate();">
+        <div class="form-group">
+            <label for="number">Year of Birth:</label>
+            <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2020 if born in 2020" name="year">
+        </div>
+        <div class="form-group">
+            <label for="month">Month of Birth:</label>
+            <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+        </div>
+        <div class="form-group">
+            <label for="date">Day of Birth:</label>
+            <input type="number" class="form-control" id="date" placeholder="Day of Birth eg 05 for September" name="date">
+        </div>
+        <div class="form-group">
+            <label for="month">Gender</label><br>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+        <br>
+    </form>
+    <p id="results"> </p>
+    </div>
+    </div>
+    <div class="card-deck">
+        <div class="card ">
+            <div class="card-body text-center" style="color: black;">
+                <p class="card-text">Akan names are derived from Ghanian culture. Get your Akan name by filling the form above!
+                </p>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="card-body text-center" style="color: black;">
+                <p class="card-text">Names are based on gender and the date you were born.</p> <br>
+
+            </div>
+        </div>
+        <div class="card ">
+            <div class="card-body text-center" style="color: black;">
+                <p class="card-text">Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+            </div>
+        </div>
+    </div>
+
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
 
